@@ -21,9 +21,10 @@ LINE = '#D9D1C3'
 
 FONT = 'C:/Windows/Fonts/NotoSansTC-VF.ttf'
 FONT_BOLD = 'C:/Windows/Fonts/msjhbd.ttc'
+FONT_SCALE = 1.12
 
 def f(size, bold=False):
-    return ImageFont.truetype(FONT_BOLD if bold else FONT, size)
+    return ImageFont.truetype(FONT_BOLD if bold else FONT, round(size * FONT_SCALE))
 
 def fit_cover(img, box):
     x, y, w, h = box
