@@ -1,0 +1,55 @@
+{
+  "schema_version": "2.0",
+  "workflow_mode": "redesign-existing",
+  "existing_page": {
+    "source": "file:///C:/Users/Callie/Documents/Codex/2026-09-01/35-55-30-35-55-lifestylerelated-2/outputs/35-55%E8%81%B7%E5%A0%B4%E5%A5%B3%E6%80%A7%E5%8D%A1%E9%97%9C%E8%87%AA%E6%9F%A5%E5%8C%85%E9%8A%B7%E5%94%AE%E9%A0%81.html",
+    "implementation_path": "outputs/35-55職場女性卡關自查包銷售頁.html",
+    "entry_route": "standalone HTML file",
+    "stack": "HTML/CSS with native details and anchor navigation",
+    "build_command": "none; static HTML",
+    "preserve": ["Traditional Chinese product identity", "Portaly purchase iframe", "four tool deliverables", "existing SEO description and Open Graph title/description", "self-check and non-diagnostic boundary"],
+    "known_working_behaviors": ["anchor navigation", "native FAQ details disclosure", "responsive CSS layout", "Portaly iframe embed"],
+    "baseline_findings": [
+      {"gate":"recognition","status":"verified","finding":"The page explains the situation and the four-step mechanism, but the Hero H1 does not directly name the product or intended audience."},
+      {"gate":"trust","status":"verified","finding":"The page uses readable product/tool previews and transparent limitations, but has no customer proof; process/demo evidence is the honest proof route."},
+      {"gate":"action","status":"verified","finding":"Portaly is embedded in the pricing area, but price and post-purchase details are controlled by the iframe and should be framed as such."}
+    ]
+  },
+  "benchmark": {"url_or_source":"","source_role":"benchmark_page","inspectability":"not-inspectable","comparison_architecture":"","component_status":{},"applicable_components":0,"matched_components":0,"partial_components":0,"structure_match_percent":0,"critical_core_covered":false,"decision":"built-in-architecture-required","decision_reason":"No benchmark page supplied in this request; use a built-in architecture and do not invent a benchmark score."},
+  "ui_source_choice": "pending",
+  "ui_source_provenance": "Three built-in candidates will be shown before implementation.",
+  "product": {
+    "name":"35-55 歲職場女性卡關自查包",
+    "slug":"35-55-career-women-self-check-pack",
+    "type":"other",
+    "description":"給35-55歲職場女性的自查與行動排序工具，在30分鐘內整理目前最該先處理的卡點，並開始7天行動。",
+    "delivery":"自查題目、分類表／結果、排序表、行動表（開始7天）；實際格式與寄送時間待補。",
+    "price":"由 Portaly 商品嵌入顯示",
+    "locale":"zh-TW",
+    "naming":{"current_name":"35-55 歲職場女性卡關自查包","rename_needed":false,"primary_title":"35-55 歲職場女性卡關自查包","subtitle":"30分鐘找出現在最該先處理的卡點，排出下一步","audience_signal":"35-55歲職場女性","problem_or_result_signal":"找出最該先處理的卡點與下一步","differentiation_signal":"自查→分類→排序→7天行動","search_keywords":["職場女性","卡關自查","行動排序"],"approval_status":"user-supplied"}
+  },
+  "conversion":{"goal":"purchase","primary_cta":"開始自查","destination":"Portaly iframe product BvrLxWhY5fwJvWd31z36","traffic_source":"unknown","traffic_temperature":"unknown"},
+  "audience":{
+    "primary_segment":"工作和家庭雙壓、長期硬撐、說不清楚卡點的35-55歲職場女性",
+    "buying_situation":"晚上或週末感到卡住、混亂、很累，想先釐清現在最該處理什麼",
+    "awareness":"problem-aware",
+    "pain_points":["覺得卡但說不清楚原因","工作與家庭同時消耗","知道不對勁但沒有起步方法"],
+    "desired_outcomes":["看見目前最耗能來源","排出優先順序","拿到7天啟動清單"],
+    "failed_alternatives":["泛用免費內容","同時亂試多種改善方法","繼續硬撐"],
+    "objections":["怕做不完","怕只是安慰","不想被替自己下人生結論","想知道付款後得到什麼"],
+    "buying_triggers":["再次感到混亂或耗能","想在週末整理狀態","需要一個低門檻起點"],
+    "decision_criteria":["30分鐘可完成","輸出具體","自我操作","不越過診斷與治療邊界"],
+    "need_scenarios":[
+      {"id":"need-001","person_or_role":"35-55歲職場女性","triggering_situation":"晚上或週末覺得工作、家庭與自己都在拉扯","observable_friction":"知道很累卻說不出是哪一塊最消耗","desired_progress":"找出目前最耗能來源","failed_alternative":"繼續硬撐或閱讀泛用建議","decision_criterion_or_objection":"希望30分鐘內有清楚輸出","customer_language":"我現在到底最該先處理什麼？","source":"user-provided product brief","status":"user_claim"},
+      {"id":"need-002","person_or_role":"工作和家庭雙壓的女性","triggering_situation":"同時面對多個待處理問題","observable_friction":"每件事都重要，反而無法開始","desired_progress":"排出先後順序","failed_alternative":"同時亂試多種方法","decision_criterion_or_objection":"不想再花力氣在錯的地方","customer_language":"我不想再亂試、亂撐。","source":"user-provided product brief","status":"user_claim"},
+      {"id":"need-003","person_or_role":"想開始改變但能量有限的女性","triggering_situation":"知道狀態不對，卻沒有可執行起點","observable_friction":"停留在想改與焦慮，沒有下一個動作","desired_progress":"有一份7天可啟動清單","failed_alternative":"只收藏內容或等待更有空","decision_criterion_or_objection":"需要低門檻、可自行完成","customer_language":"我知道不能再硬撐，但要從哪裡開始？","source":"user-provided product brief","status":"user_claim"}
+    ]
+  },
+  "offer":{"promise":"30分鐘找出你現在最該先處理的卡點，並拿到下一步行動順序","transformation_thesis":"在一次自我整理後，買方能把模糊的卡關感轉成一個目前最該先處理的優先項目與7天啟動清單。","mechanism":"自查題目→分類表／結果→排序表→行動表","differentiators":["四份工具連成一個先後順序","輸出優先項目與7天清單","自助完成，不替使用者下人生結論"],"primary_selling_point_id":"selling-001","selling_points":[{"id":"selling-001","capability_or_deliverable":"自查、分類、排序與7天行動四份工具","need_ids":["need-001","need-002","need-003"],"practical_value":"把模糊的卡關感整理成可理解的優先順序與下一步","differentiation":"不是只提供共鳴或泛用建議，而是提供連續的整理輸出","evidence":"可展示的工具示意與使用流程；無客戶成果證據","conditions":"使用者需自行填寫並依結果選擇行動","objection_answered":"這會不會只是空泛安慰？","priority":"primary"}],"deliverables":["自查題目","分類表／結果","排序表","行動表（開始7天）"],"support":["售後方式待補"],"guarantee":"不提供結果保證","constraints":["不提供個人化診斷","不承諾人生答案","不取代心理、醫療或其他專業介入","付款後交付格式與時間待確認"],"fit":["想先釐清混亂狀態的人","想用低門檻工具開始的人"],"not_fit":["需要直接被替代決策的人","已明確需要專業介入的人"],"value_ladder":[{"deliverable":"自查題目","capability":"整理當下狀態","practical_outcome":"看見反覆出現的卡住訊號","broader_value":"開始理解自己的耗能來源"},{"deliverable":"分類表／結果","capability":"將問題放入可理解類型","practical_outcome":"分清工作、家庭、能量與界線等面向","broader_value":"減少所有事情混成一團"},{"deliverable":"排序表","capability":"依影響與可行性排先後","practical_outcome":"選出一個優先項目","broader_value":"把注意力放在最值得開始的地方"},{"deliverable":"行動表（開始7天）","capability":"拆成小步驟","practical_outcome":"拿到7天啟動清單","broader_value":"從想改變走到開始做"}],"burden_reversal":{"avoidable_method":"不必同時閱讀大量泛用內容或同時處理所有問題","enabled_change":"先用四份工具整理出一個優先順序","remaining_effort":"仍需自行誠實填寫、選擇並執行7天行動"}},
+  "authority":{"relevant":false,"identity":"","verifiable_work":[],"credentials":[],"buyer_relevance":"目前沒有提供需放在頁面上的專業資歷或個人權威資料。"},
+  "proof":{"level":"demo","items":["四份工具的可讀示意畫面","自查→分類→排序→行動流程示意"],"available_assets":[],"missing_evidence":["客戶案例","具名評價","量化成果","創作者資歷"],"presentation":{"available_modes":["annotated-output","process-demo"],"recommended_mode":"annotated-output","selection_reason":"目前最強的誠實證據是產品本身與使用流程，而非未提供的客戶結果。","before_after_basis":"不使用客戶前後結果；只展示輸入到工具輸出的流程。"}},
+  "activation":{"price_context":{"type":"none","reference":"","source":"Portaly iframe","currency":"","unit_and_scope":"商品價格由 Portaly 顯示","checked_at":"2026-09-09"},"reason_now":{"type":"none","detail":"沒有提供截止日、名額或限時優惠","constraint_source":"user-provided product brief","expires_or_capacity":""}},
+  "brand":{"voice":"成熟、安定、清楚、偏工具型","visual_traits":["低刺激","高可讀","工作冊與整理工具感","手機優先"],"avoid":["治療、診斷、療癒、保證結果","虛構案例、評價、銷量、資歷、倒數與名額"],"colors":["sage green","warm paper","peach","soft yellow"],"fonts":["Noto Sans TC","PingFang TC","Microsoft JhengHei","system-ui"],"assets":[]},
+  "facts":{"verified":["現有 standalone HTML 頁面","Portaly iframe URL 已嵌入","頁面包含四份工具內容示意"],"user_claims":["產品名稱、客群、30分鐘使用目標、7天啟動清單","自查／分類／排序／行動的產品機制"],"assumptions":["主要流量為問題覺察型訪客","工具示意比抽象情緒文案更能建立信任"],"missing":["實際檔案格式","付款後寄送時間","售後方式","客戶案例與評價","創作者資歷","流量來源與溫度"],"prohibited":["診斷、治療、療癒或保證人生改善","捏造銷量、評價、案例、專業資歷、倒數、名額或付款結果"]},
+  "build":{"stack":"standalone HTML/CSS","output_path":"./35-55-career-women-self-check-pack-landing-page","analytics":"none supplied","publish_requested":false}
+}
